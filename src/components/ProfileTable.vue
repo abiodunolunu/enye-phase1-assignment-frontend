@@ -7,7 +7,7 @@
         <td>Full name</td>
         <td>Email</td>
         <td>Gender</td>
-        <td>Credit method No</td>
+        <td>Credit Card No</td>
         <td>Payment Method</td>
       </tr>
     </thead>
