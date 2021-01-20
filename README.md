@@ -1,11 +1,8 @@
 # enye-frontend-task
 
-```
-[Project Link](https://abeydev-enye-frontend-task.netlify.app/)
-```
+[Project Live Link](https://abeydev-enye-frontend-task.netlify.app/)
 
 
-[Go to the Support Web Site](https://support.west-wind.com)
 
 ## Project setup
 ```
