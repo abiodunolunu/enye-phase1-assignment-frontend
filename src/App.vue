@@ -73,7 +73,7 @@ export default {
           totalNumberOfPages.value = Math.ceil(
             ALL_PROFILES.value.length / itemsPerPage
           );
-          currentPage.value = 2;
+          currentPage.value = 1;
         });
     });
 
