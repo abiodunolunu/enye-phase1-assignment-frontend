@@ -21,7 +21,7 @@
           }}</a>
         </td>
         <td>{{ profile.Gender }}</td>
-        <td>{{ profile.CreditCardNumber }}</td>
+        <td>{{  creditCardNumberFormat(profile.CreditCardNumber) }}</td>
         <td>{{ profile.PaymentMethod }}</td>
       </tr>
       <tr v-if="filteredProfiles.length <= 0">
@@ -40,6 +40,12 @@
 <script>
 export default {
   props: ["filteredProfiles"],
+  setup() {
+      const creditCardNumberFormat = (number) => {
+            return number.slice(0, 4) + '*'.repeat(number.length - 8) + number.slice(number.length - 4, number.length)
+      }
+      return {creditCardNumberFormat}
+  }
 };
 </script>
 
